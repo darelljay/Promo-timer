@@ -1,10 +1,10 @@
-import Header from "./components/header/header"
-
+import { GlobalStyles } from "./Globalstyle"
+import MenuAppBar from "./components/header/headerComponent"
 function App() {
-
   return (
     <>
-    <Header/>
+    <GlobalStyles/>
+    <MenuAppBar/>
     <div>
       hello world
     </div>
